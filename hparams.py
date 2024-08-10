@@ -27,29 +27,13 @@ train = {
 
 
 data = {
-  "dir": '/home/prml/.virtualenvs/mamba_super_1/lib/python3.11', #dir/spk/format
-  "format": '*mic1.pt',
-  "train_names" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/dataset_names/train-files.txt",
-  "val_names" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/dataset_names/val-files.txt",
-  "train_val_test_ratio": (100./108., 8./108., 0.00), #train/val/test
-  "example_audio": "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/VCTK-Corpus/wav48/p228/p228_003.wav"
+  "confidential"
 }
 
 ckpt = {
-  "vis_save_path" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/imgs",
-  "ckpt_save_path" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/ckpts",
-  "models_save_path" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/models",
-  "tensorboard_save_path" :"/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/tensorboard",
-  "etc_save_path" : "/home/prml/.virtualenvs/mamba_super_1/lib/python3.11/etc"
+"confidential"
 }
-"""
-# Open the file in read mode
-with open(data["train_names"], 'r') as file:
-    # Read the entire contents of the file
-    contents = file.read()
-# Print the contents
-print(contents)
-"""
+
 
 # Following NVSR
 audio = {
