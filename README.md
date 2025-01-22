@@ -1,3 +1,5 @@
 # Audio-Super-Resolution-with-Mamba
 
-An official implementation of ASMR (Audio Super Mamba Resolution). 
+
+
+Deprecated. See [here](https://github.com/infected4098/Wave-U-Mamba).
